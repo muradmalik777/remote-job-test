@@ -1,0 +1,21 @@
+@import './fonts.scss';
+@import './app.scss';
+@import './utils.scss';
+
+* {
+  box-sizing: border-box !important;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto-Regular';
+  color: #333333;
+}
+.icon{
+  color: #333333;
+  cursor: pointer;
+}
+
+.box{
+  margin: auto;
+}
