@@ -49,6 +49,16 @@ export const getJobs = () => {
             company: "Company K",
             optional_requirements: [],
             compulsary_requirements: ["paypal account"]
+        },
+        {
+            company: "Company L",
+            optional_requirements: [],
+            compulsary_requirements: ["bike", "driving license"]
+        },
+        {
+            company: "Company M",
+            optional_requirements: [],
+            compulsary_requirements: ["bike"]
         }
     ]
 }
