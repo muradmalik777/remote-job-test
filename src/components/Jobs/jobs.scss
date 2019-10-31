@@ -1,0 +1,27 @@
+.all-jobs{
+    width: 100%;
+    min-height: 500px;
+    overflow: auto;
+    background: #efefef;
+    padding: 1rem;
+    h2 { text-align: center;}
+
+    .job{
+        width: 23.8%;
+        display: block;
+        float: left !important;
+        min-height: 110px;
+        background: #ffffff;
+        border-radius: 5px;
+        margin: .5rem;
+
+        h3, p { margin: .5rem;}
+        p {
+            font-size: 14px;
+            span{
+                font-weight: 600;
+                text-transform: capitalize;
+            }
+        }
+    }
+}

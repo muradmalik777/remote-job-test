@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import './assets/scss/app.scss';
-import FilterJobs from './components/FilterJobs/FilterJobs';
+import Home from './pages/Home';
 
 const App = () => {
 
@@ -10,7 +10,7 @@ const App = () => {
   
   return (
     <div className="app">
-      <FilterJobs />
+      <Home />
     </div>
   );
 }

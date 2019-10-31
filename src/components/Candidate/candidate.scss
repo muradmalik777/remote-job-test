@@ -1,0 +1,14 @@
+.my-profile{
+    width: 100%;
+    padding: 1rem;
+    background: #dddddd;
+
+    h2, p { margin: .3rem;}
+    p {
+        font-size: 14px;
+        span { 
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+    }
+}
